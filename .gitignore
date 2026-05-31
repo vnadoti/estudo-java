@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea/
 
 ### Eclipse ###
 .apt_generated
@@ -28,3 +29,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Compilação Java
+out/
+
+# Arquivos compilados
+*.class
+
+# Logs
+*.log

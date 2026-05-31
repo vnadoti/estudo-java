@@ -4,9 +4,11 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class _9medianotas2 {
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
-    
+
+    // Média Simples de 3 números
+    // Peça 3 números e calcule a média
+
     Scanner input = new Scanner(System.in);
     input.useLocale(Locale.US);
 
@@ -20,7 +22,7 @@ public class _9medianotas2 {
     double n3 = input.nextDouble(); 
 
     double media = (n1 + n2 + n3) / 3;
-    System.out.printf("A Média dos Números são: %f",media);
+    System.out.printf(Locale.US, "A Média dos Números são: %f",media);
 
     input.close();    
        

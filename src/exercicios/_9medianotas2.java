@@ -22,7 +22,7 @@ public class _9medianotas2 {
     double n3 = input.nextDouble(); 
 
     double media = (n1 + n2 + n3) / 3;
-    System.out.printf(Locale.US, "A Média dos Números são: %f",media);
+    System.out.printf(Locale.US, "A Média dos Números são: %.2f",media);
 
     input.close();    
        

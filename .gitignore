@@ -3,6 +3,7 @@
 !**/src/test/**/out/
 .kotlin
 .idea/
+estudos-java.iml
 
 ### Eclipse ###
 .apt_generated

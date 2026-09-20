@@ -1,6 +1,6 @@
 # Estudo Java
 
-Repositório criado para armazenar exercícios e projetos desenvolvidos durante meus estudos em Java.
+Repositório criado para armazenar estudos / exercícios e projetos desenvolvidos durante meus estudos em Java.
 
 ## Conteúdos estudados
 
@@ -14,7 +14,8 @@ Repositório criado para armazenar exercícios e projetos desenvolvidos durante 
 
 ```text
 src/
-└── exercicios/
+└── aulas/
+└── exercicios
 ```
 
 ## Tecnologias

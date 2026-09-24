@@ -14,7 +14,8 @@ Repositório criado para armazenar estudos / exercícios e projetos desenvolvido
 
 ```text
 src/
-└── aulas/
+└── aulas
+    └── fundamentos
 └── exercicios
 ```
 

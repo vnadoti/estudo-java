@@ -2,6 +2,7 @@ package aulas.fundamentos;
 
 public class TiposPrimitivos {
         public static void main(String [] args){
+        //String nao é um tipo primito e sim uma classe
         String nomePessoa = "Victor";
         int idadePessoa = 30;
         double alturaPessoa = 1.60;

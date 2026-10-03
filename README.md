@@ -8,6 +8,7 @@ Repositório criado para armazenar estudos / exercícios e projetos desenvolvido
 - Operadores Aritméticos
 - Entrada e Saída de Dados
 - Scanner
+- Estruturas Condicionais
 - Exercícios Básicos
 
 ## Estrutura
@@ -16,6 +17,7 @@ Repositório criado para armazenar estudos / exercícios e projetos desenvolvido
 src/
 └── aulas
     └── fundamentos
+    └── EstruturasCondicionais
 └── exercicios
 ```
 

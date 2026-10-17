@@ -21,8 +21,22 @@ public class EntradaDados {
     System.out.printf("""
         Nome: %s
         Idade: %d
-        Cidade: %s 
+        Cidade: %s
         Profissão: %s
         """, name, idade, city, profissao);
+
+  String nome2 = "Ana";
+  int idade2 = 25;
+  double salario = 3500.75;
+    System.out.printf("""
+            Nome: %s
+            idade: %d
+            Salario: %.2f
+            """,
+        nome2, idade2, salario);
+
+
+    scanner.close();
   }
+
 }

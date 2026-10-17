@@ -13,7 +13,7 @@ public class Ex03BaseAltura {
 
     double area = base * altura;
     System.out.printf("""
-        A área do retangulo é : %f.2
+        A área do retangulo é : %.2f
         """ , area);
 
 

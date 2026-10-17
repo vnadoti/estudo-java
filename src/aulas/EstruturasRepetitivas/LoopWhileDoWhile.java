@@ -1,21 +1,29 @@
-package aulas.EstruturasCondicionais;
+package aulas.EstruturasRepetitivas;
 
 import java.util.Scanner;
 
-public class LoopWhile {
+public class LoopWhileDoWhile {
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
 
     var name = "";
 
+    //While
     //Avalie a condiçao e faça
-      while (!name.equals("exit")) {
+      while (!name.equalsIgnoreCase("exit")) {
         System.out.println("Informe um nome");
         name = scanner.nextLine();
       }
 
-      // Faça uma vez e depois avalie a condiçao (Roda pelo menos 1x)
+    int contador = 0;
+    while (contador < 11) {
+      System.out.println("Contador: " + contador);
+      contador++ ;
+    }
+
+    //Do-While
+    // Faça uma vez e depois avalie a condiçao (Roda pelo menos 1x)
       do {
         System.out.println("Informe um nome: ");
         name = scanner.nextLine();

@@ -1,4 +1,4 @@
-package aulas.EstruturasCondicionais;
+package aulas.EstruturasRepetitivas;
 
 import java.util.Scanner;
 
@@ -13,7 +13,6 @@ public class LoopFor {
 //        if(name.equalsIgnoreCase("exit")) break;
 //       System.out.println(name);
 //    }
-
 
     for ( int i = 1; i <= 101; i++ ){
       System.out.println(i);

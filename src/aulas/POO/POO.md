@@ -21,3 +21,30 @@ variáveis da nossa casa.
 Na classe podemos ter comportamentos, métodos , como por exemplo, construir
 (uma função)
 O Objeto vai ser a nossa casa, construida com base nessa planta (classe).
+
+---
+
+Quatro pilares fundamentais da programação orientada a objetos.
+- Encapsulamento
+- Herança 
+- Polimorfismo 
+- Abstração
+
+## Encapsulamento
+Restringir o acesso a alguns dos componentes da classe, geralmente tornando-os
+privados, e fornecendo métodos públicos para acessá-los e modificá-los,
+isso ajuda a proteger os dados internos do objeto e promove integridade e 
+segurança.
+
+Proteção dos dados: impede que os dados sejam alterados diretamente de fora da classe, 
+evitando inconsistências e garantindo que os dados sejam acessados e modificados de forma controlada.
+
+Ocultação de informação: esconde os detalhes internos da implementação da classe. 
+Expondo apenas o que é necessário para o uso da classe.
+
+Facilidade de manutenção: permite modificar a implementação interna sem afetar o código externo que usa a classe, 
+tornando a manutenção mais fácil.
+
+Modularidade: ajuda a dividir o programa em partes menores e mais gerenciáveis.
+
+## Herança
